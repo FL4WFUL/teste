@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations</title>
+    <link rel="stylesheet" href="/static/test.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <!--   -->
+            <a href="{{url_for('presentation')}}">Apresentação</a>
+            <a href="{{url_for('contacts')}}">Contatos</a>
+            <a href="{{url_for('academic')}}">Academicas</a>
+            
+        </nav>
+    </div>
+    {% block head %}
+
+    {% endblock %}
+    <div></div>
+</body>
+</html>
